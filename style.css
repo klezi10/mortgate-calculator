@@ -4,6 +4,8 @@
 
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #19484d;
 }
 
 h1 {
@@ -18,6 +20,8 @@ h1 {
   border-radius: 5px;
   max-width: 350px;
   padding: 20px;
+  background: #7dbfa4;
+  box-shadow: 3px 2px 10px 7px rgba(0, 0, 0, 0.34);
 }
 
 .flex-text {
@@ -27,7 +31,7 @@ h1 {
 .input-text {
   margin: 0;
   padding-left: 5px;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 input,
@@ -36,8 +40,52 @@ label {
   width: 100%;
 }
 
+label {
+  margin-bottom: 5px;
+}
+
+input,
+.calculate-btn {
+  font-size: 16px;
+}
+
 input {
   width: 200px;
+  padding: 0.3em 0.5em;
   margin-bottom: 30px;
-  padding: 0.2em;
+  opacity: 0.7;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.calculate-btn {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: #19484d;
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: 700;
+  transition: all 250ms ease-in-out;
+}
+
+.calculate-btn:hover,
+.calculate-btn:focus {
+  color: #19484d;
+  background: white;
+}
+
+.signature {
+  text-align: center;
+  margin-top: -20px;
+  color: #7dbfa4;
+  font-size: 12px;
+}
+
+.signature a {
+  color: #eaac80;
+}
+
+.signature a:hover {
+  color: blue;
 }
