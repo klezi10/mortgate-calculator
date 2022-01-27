@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <h1>Mortgate Calculator</h1>
+    <div class="container">
+      <form id="form">
+        <label for="principal-loan-amount">Principal loan amount</label>
+        <input type="number" id="principal-loan-amount" required />
+        <label for="interest-rate">Interest rate</label>
+        <input type="number" id="interest-rate" required />
+        <label for="length-of-loan">Length of loan</label>
+        <input type="number" id="length-of-loan" required />
+        <button id="calculate-btn" class="calculate-btn">Calculate</button>
+        <p>
+          Your monthly mortgate payment will be $<span class="monthly-payment"
+            >2,108</span
+          >
+        </p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

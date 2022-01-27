@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 350px;
+  padding: 20px;
+}
+
+input,
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  width: 200px;
+  margin-bottom: 30px;
+  padding: 0.2em;
+}
