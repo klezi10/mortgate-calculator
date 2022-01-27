@@ -17,5 +17,7 @@ function monthlyPayment() {
   const payment = Math.round(
     (p * i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1)
   );
-  monthlyPaymentText.innerHTML = `Your monthly mortgate payment will be $${payment}.`;
+  monthlyPaymentText.innerHTML = `Your monthly mortgate payment will be $${payment.toLocaleString(
+    'en'
+  )}.`;
 }
