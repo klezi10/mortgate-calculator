@@ -26,18 +26,18 @@ Create a calculator that accepts three inputs and calculates your monthly mortga
 
 ### Screenshot
 
-![](/screenshot.jpg)
+![](/screenshot.png)
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://loving-leakey-e6c660.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - HTML5
-- CSS properties
+- CSS
 - Vanilla JavaScript
 
 ### What I learned
