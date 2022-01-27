@@ -26,7 +26,7 @@ Create a calculator that accepts three inputs and calculates your monthly mortga
 
 ### Screenshot
 
-![](/screenshot.png)
+![](/screenshot.jpg)
 
 ### Links
 
