@@ -11,11 +11,11 @@ form.addEventListener('submit', (event) => {
 });
 
 function monthlyPayment() {
-  let i = interestRate.value / 100 / 12;
+  let r = interestRate.value / 100 / 12;
   let p = loanAmount.value;
   let n = loanLength.value * 12;
   const payment = Math.round(
-    (p * i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1)
+    (p * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1)
   );
   monthlyPaymentText.innerHTML = `Your monthly mortgate payment will be <strong>$${payment.toLocaleString(
     'en'

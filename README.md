@@ -20,9 +20,9 @@ This is a solution to the [Mortgage Calculator on Frontendeval](https://frontend
 
 Create a calculator that accepts three inputs and calculates your monthly mortgage payment:
 
-    Principal loan amount
-    Interest rate (annual)
-    Number of years on your mortgage
+- Principal loan amount
+- Interest rate (annual)
+- Number of years on your mortgage
 
 ### Screenshot
 
