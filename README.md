@@ -50,4 +50,4 @@ Practice with calculating formulas in JavaScript.
 
 ## Author
 
-- [Portfolio](https://clever-turing-3f9e94.netlify.app/)
+- [Portfolio](https://klesdev.com)
